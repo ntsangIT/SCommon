@@ -81,7 +81,7 @@ A MVVM library for iOS Swift, including interfaces for View, ViewModel and Model
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "https://github.com/ntsangIT/SCommon.git" }
+  spec.source       = { :git => "https://github.com/ntsangIT/SCommon.git", :tag => spec.version.to_s }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

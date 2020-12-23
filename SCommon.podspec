@@ -40,7 +40,7 @@ A MVVM library for iOS Swift, including interfaces for View, ViewModel and Model
   #
 
   # spec.license      = "MIT (example)"
-  spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
+  spec.license      = { :type => "MIT", :file => "LICENSE" }
 
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -65,6 +65,8 @@ A MVVM library for iOS Swift, including interfaces for View, ViewModel and Model
 
   # spec.platform     = :ios
   # spec.platform     = :ios, "5.0"
+
+   spec.swift_version    = '5.0'
 
   #  When using multiple platforms
    spec.ios.deployment_target = "12.0"
@@ -116,7 +118,7 @@ A MVVM library for iOS Swift, including interfaces for View, ViewModel and Model
   #  the lib prefix of their name.
   #
 
-  # spec.framework  = "SomeFramework"
+  spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
 
   # spec.library   = "iconv"
